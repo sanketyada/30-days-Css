@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* <img src="pause.png" alt="" id="myImg"> */
+}
+.main{
+    height: 100vh;
+    background: linear-gradient(#21b3e1,#fff);
+}
+.navbar{
+    width: 100%;
+    /* height: 60px; */
+    border-bottom: 2px solid  #b7e7f6;
+}
+nav{
+    width: 80%;
+    margin:0px auto 0;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.logo{
+    flex-basis: 15%;
+}
+.logo img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    padding: 15px 5px;
+    position: relative;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #b7e7f6;
+
+}
+.nav-links ul li::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-links ul li:hover::after{
+    background: #fff;
+}
+.menu-icon{
+    flex-basis: 15%;
+}
+.menu-icon img{
+    width: 35px;
+    position: absolute;
+}
+.active::after{
+    background: #fff !important;
+}
+.content{
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-150px);
+    text-align: center;
+    z-index: 2;
+}
+.social-icon img{
+    width: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.Search-box{
+    margin-top: 20px;
+    border: 1px solid #b7e7f6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0));  
+}
+.Search-box input{
+    width: 100%;
+    padding:7px 15px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #b7e7f6;
+}
+.Search-box img{
+    width: 20px;
+    margin: 5px 10px;
+}
+::placeholder{
+    color: white;
+}
+#cloud{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    animation: cloud 10s linear infinite;
+}
+@keyframes cloud {
+    0%{
+        top: -100px;
+    }
+}
+#plane{
+    width: 200px;
+    position: absolute;
+    top: 180px;
+    left: 100%;
+    z-index: 2;
+    animation: plane 25s linear infinite;
+}
+@keyframes plane {
+    0%{
+        left: -100px;
+    }
+}
+#hotairballon{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: ballon 25s linear infinite;
+}
+@keyframes ballon{
+    0%{
+        bottom: -200px;
+    }
+}
+.ballon1{
+    width: 150px;
+    opacity: 0.4;
+}
+.ballon2{
+    width: 350px;
+}
+.ballon3{
+    width: 180px;
+    opacity: 0.5;
+}
+#myImg{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}

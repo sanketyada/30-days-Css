@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="jquery.passwordstrength.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <img
+        src="png.png"
+        alt=""
+      />
+      <div class="image-box">
+        <span><i class="fa-solid fa-user"></i></span>
+        <input type="text" placeholder="Username" required />
+      </div>
+      <div class="image-box">
+        <span><i class="fa-regular fa-envelope"></i></span>
+        <input type="email" placeholder="Email" required />
+      </div>
+      <div class="image-box">
+        <span><i class="fa-solid fa-lock"></i></span>
+        <input type="password" id="password" placeholder="Password" required />
+      </div>
+      <button type="submit">
+        <i class="fa-solid fa-right-to-bracket"></i>Ragister
+      </button>
+    </form>
+    <script type="text/javascript">
+      $(function () {
+        $("#password").passwordStrength();
+      });
+    </script>
+  </body>
+</html>

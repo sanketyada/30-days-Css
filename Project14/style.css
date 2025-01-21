@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#000325,#040b52);
+    padding: 10px 0px;   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #141848;
+}
+.left{
+    flex-basis: 20%;
+    margin-left: 10px;
+}
+.left img{
+    width: 70px;
+}
+.right{
+    flex: 1;
+}
+.right ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    padding: 0 30px;
+}
+.right ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #999;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.right ul li a:hover{
+    color: #fff;
+}
+.account{
+    flex: 1;
+    text-align: right;
+}
+.account a{
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px 40px;
+    background-color: #1523bb;
+    border-radius:25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.account a:hover{
+    background-color: rgb(14, 52, 0);
+    color: #fff;
+}
+.new{
+    width: 80%;
+    margin: 20px auto;
+    background-color: red;
+}
+.description{
+    position: absolute;
+    top: 20%;
+    flex-basis: 50%;
+    float: left;
+}
+.description h1{
+    font-size: 30px;
+    color: #fff;
+}
+.description p{
+    margin-top: 10px;
+    color: #fff;
+}
+.logo{
+    flex-basis: 50%;
+    float: right;
+}
+.logo img{
+    border-radius: 5px;
+    box-shadow: 0px 0pc 1pc #999;
+}
+.cast{
+    display: flex;
+    margin-top: 10px;
+}
+.cast img{
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 2px solid;
+    box-shadow: 1px 1px 5px #221f1f;
+    transition: 1s;
+}
+.cast img:hover{
+    width:100px ;
+}
+.watch{
+    width: 100%;
+    margin-top: 30px;
+}
+.watch a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 12px;
+    color: #999;
+    background-color: #1523bb;
+    transition: 0.5s;
+}
+.watch a:hover{
+    color: #fff;
+    box-shadow: 1px 1px 5px #999;
+}
+.logo img{
+    width: 400px;
+    margin-top: 30px;
+}
+.movie-list{
+    position: absolute;
+    bottom: 0;
+    width: 1005;
+    height: 300px;
+    padding: 10px 20px;
+}
+.movie-list h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.movie-list img{
+    height: 200px;
+    margin: 10px;
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+.movie-list img:hover{
+    box-shadow: 1px 2px 10px #999;
+}

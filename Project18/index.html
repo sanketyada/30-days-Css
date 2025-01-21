@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <img src="pngwing.com (1).png" alt="" />
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+                <li><a href="">Kids</a></li>
+                <li><a href="">Beauty</a></li>
+                <a href="" class="store">Find Store</a>
+            </ul>
+        </div>
+      </nav>
+      <div class="product">
+        <div class="smallimg">
+          <img
+            src="img/51WMVo7fZZL._SX679_.jpg"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="img/51T+dWdblDL._SX679_.jpg"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="img/61hbDu4qAEL._SY741_.jpg"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="img/61hn4j1LRvL._SY741_.jpg"
+            onclick="myFunction(this)"
+          />
+          <img
+            src="img/71XdRmoTUWL._SY741_.jpg"
+            onclick="myFunction(this)"
+          />
+        </div>
+        <div class="img-container">
+          <img
+            id="fullImg"
+            src="img/51WMVo7fZZL._SX679_.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="desc">
+        <h2>
+          Men Full Sleeve Solid Hooded <br />
+          Sweatshirt
+        </h2>
+        <p>Special price</p>
+        <h1>
+          <i class="fa-solid fa-indian-rupee-sign">&nbsp;</i>499
+          <small>75% off</small>
+        </h1>
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="color">
+          <span>Select Color:</span>
+          <div style="background-color: green"></div>
+          <div style="background-color: rgb(26, 0, 128)"></div>
+          <div style="background-color: rgb(128, 0, 2)"></div>
+          <div style="background-color: rgb(152, 162, 16)"></div>
+        </div>
+        <div class="offer">
+          <h3>Available Offer:</h3>
+          <ul>
+            <li><i class="fa-solid fa-tag"></i>
+              Bank Offer5% Unlimited Cashback on Flipkart Axis Bank Credit
+              CardT&C
+            </li>
+            <li><i class="fa-solid fa-tag"></i> Bank OfferFlat ₹1,200 off on HDFC Bank Credit Card EMI Txns on 6 and 9 months tenure, Min. Txn Value: ₹15,000T&C</li>
+            <li><i class="fa-solid fa-tag"></i> Bank OfferFlat ₹1,500 off on HDFC Bank Credit Card EMI Txns on 12 months tenure, Min. Txn Value: ₹15,000T&C</li>
+            <li><i class="fa-solid fa-tag"></i> Special PriceGet at flat ₹499T&C</li>
+          </ul>
+        </div>
+        <div class="button">
+                <a href=""><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
+                <a href=""class="buy" ><i class="fa-solid fa-bolt"></i> Buy Now</a>
+        </div>
+
+      </div>
+      <script>
+        function myFunction(img) {
+          var fullImg = document.getElementById("fullImg");
+          fullImg.src = img.src;
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 25</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sec">
+      <header>
+        <a href=""><img src="logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">What's New</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textbox">
+          <h2>
+            Just the way <br />
+            <span>I want it</span>
+          </h2>
+          <p>
+            Pepsi is a carbonated soft drink with a cola flavor, manufactured by
+            PepsiCo. As of 2023, Pepsi is the second most valuable soft drink
+            brand worldwide behind Coca-Cola;The two share a long-standing
+            rivalry in what has been called the "cola wars".
+          </p>
+          <a href="">View all Product</a>
+        </div>
+        <div class="imgbox">
+          <img src="pepsi001.png" alt="" class="pepsi" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="pepsi001.png"
+            onclick="imgSlider('pepsi001.png'); backColor('#0062be')"
+          />
+        </li>
+        <li>
+          <img
+            src="pepsi002.png"
+            onclick="imgSlider('pepsi002.png'); backColor('#e60c2c')"
+          />
+        </li>
+        <li>
+          <img
+            src="pepsi003.png"
+            onclick="imgSlider('pepsi003.png'); backColor('#1e1e1e')"
+          />
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".pepsi").src = anything;
+      }
+      function backColor(color) {
+        const sec = document.querySelector(".sec");
+        sec.style.background = color;
+      }
+    </script>
+  </body>
+</html>

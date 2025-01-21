@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbar{
+    padding: 1rem 0 !important;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.banner{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #221f1f;
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("pexels-pixabay-237272.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    font-size: 20px;
+    padding-left: 4%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+.banner-text h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.banner-text p{
+    color: #fff;
+}
+.banner-text .btn-primary{
+    background-image: linear-gradient(to right,#3636f3,#be43f1);
+    border: none;
+    box-shadow: none;
+    padding: 15px 30px;
+    margin-top:10px ;
+}

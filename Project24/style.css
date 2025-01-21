@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#663706;
+    background: linear-gradient(rgb(207, 207, 207),#99588d);
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color:rgb(148,36,54);
+   padding: 10px 20px;
+}
+nav img{
+    width: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #999;
+}
+nav .icons i{
+    margin: 0 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.row{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    padding: 10px 20px;
+}
+.row .col{
+    flex-basis: 50%;
+}
+.col1 {
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.col1 h1{
+   font-size: 100px;
+   margin-top: 30px;
+}
+.col1 h3{
+    color: #2A543B;
+    background-color: yellow;
+    display: inline-block;
+}
+.col1 p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 8px;
+}
+.col1 a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.col2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.card{
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 1px 1px 8px #333;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card1{
+    background-image: url("image/1_39175d48-c551-435c-a7c4-9f49b17941bd.webp");
+}
+.card2{
+    background-image: url("image/NewProject_1.webp");
+}
+.card3{
+    background-image: url("image/pexels-alexandr-borecky-128389-393047.jpg");
+}
+.card4{
+    background-image: url("image/pexels-karolina-grabowska-4041181.jpg");
+}
+.card5{
+    background-image: url("image/pexels-pratik-prasad-3736245-11700618.jpg");
+}
+.card6{
+    background-image: url("image/pexels-tdcat-437037.jpg");
+}

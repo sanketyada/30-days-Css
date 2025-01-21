@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0eeed;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.left img{
+    width: 70px;
+}
+.right ul li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+.right ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+}
+.store{
+    text-decoration: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: #fff;
+}
+.product{
+    margin-top: 10px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    flex-basis: 50%;
+    float: left;
+}
+.smallimg{
+    float: left;
+}
+.smallimg img{
+    height: 96px;
+    display: block;
+    margin: 10px 0px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.smallimg img:hover{
+    opacity: 1;
+}
+.img-container{
+    float: right;
+    padding: 10px;
+}
+.img-container img{
+    height: 520px;
+}
+.desc{
+    flex-basis: 50%;
+    float: right;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+}
+.desc h2{
+    font-size: 25px;
+}
+i{
+    font-size: 20px;
+    background-color: transparent;
+}
+small{
+    font-size: 15px;
+}
+.desc .star{
+    margin-top: 10px;
+}
+.desc>p{
+    margin: 8px;
+    margin-left: 0;
+    
+    color: green;
+    font-weight: 600;
+}
+.color{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.color div{
+    height: 30px;
+    width: 30px;
+    padding: 10px 20px;
+    background-color: red;
+    margin: 8px;
+}
+.offer ul{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.offer ul li{
+    list-style: none;
+    line-height:1.3;
+}
+.button{
+    margin-top: 40px;
+}
+.button a{
+    text-decoration: none;
+    background-color: rgb(255,159,0);
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #070707;
+    border-radius: 12px;
+}
+.buy{
+    background-color: #FB641B !important;
+}
