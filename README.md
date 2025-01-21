@@ -12,4 +12,4 @@ A journey to master CSS through daily hands-on practice. This repository contain
   - Pseudo-classes and pseudo-elements.
   - Responsive design techniques.
 
-Meet you aging with me Challange.
+Meet you aging with new Challange.
