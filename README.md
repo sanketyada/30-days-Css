@@ -12,12 +12,4 @@ A journey to master CSS through daily hands-on practice. This repository contain
   - Pseudo-classes and pseudo-elements.
   - Responsive design techniques.
 
-## 📂 Folder Structure
-
-Each project is organized by day. Navigate to the respective folder for the project.
-
-```plaintext
-Day 1: Project Name
-Day 2: Project Name
-...
-Day 30: Project Name
+Meet you aging with me Challange.
