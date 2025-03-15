@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Projects</title>
+</head>
+<body>
+    <h1>Welcome to My JavaScript Projects</h1>
+    <ul id="project-list"></ul>
+
+    <script>
+        // Number of projects
+        const projectCount = 33;
+        const projectList = document.getElementById("project-list");
+
+        // Generate project links dynamically
+        for (let i = 1; i <= projectCount; i++) {
+            const listItem = document.createElement("li");
+            const link = document.createElement("a");
+
+            link.href = `project${i}/`;  // Link to each project folder
+            link.textContent = `Project ${i}`;
+
+            listItem.appendChild(link);
+            projectList.appendChild(listItem);
+        }
+    </script>
+</body>
+</html>
